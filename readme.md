@@ -11,16 +11,17 @@ Table of Contents
 
 # Cold Winter
 
-What i've done in this cold winter of 2019:
+What I've done in this cold winter of 2019:
+
 Use emacs to wirte **latex**, **markdown**, **python**, **org**, and **git**.
 
 
-## Emacs first
+## Emacs First
 
 I make a summary about what I've learned about emacs up to 2020.3.30.And I push the configuration file to github `init.el`
 ![image](https://github.com/leishaohu/coldwinter/blob/master/pic/pic1.png)
 
-### Recommand some packages
+### Recommand Some Packages
 
 | package             | function                                                                      |
 |---------------------|-------------------------------------------------------------------------------|
@@ -63,12 +64,36 @@ With the help of evil and many packages I can edit in emacs proficiently;
 | i,a,o,O       | insert,append,open in the next line;up line |
 
 
-## Latex in emacs
+## Latex in Emacs
 
+First time I used latex was recommanded by my best friend of USTC. At that time the VScode was the editor I used. It was good, but since I used the emacs and the package of cdlatex, my proficiency is improved greatly.You just need to type few words and type <tab>, it will complete a environment for you.And in math, type ` and there is a list of all kinds special words you need and you can even add some new keybands into it.Type ' and there will be a list of different kinds of fonts.
+
+``` latex
+
+>>> sn<tab> 
+
+
+\section{}
+
+>>> ss<tab>
+
+\subsection{}
+
+>>>fg<tab>
+\begin{figure}[htbp]
+\centerline{\includegraphics[]{}}
+\caption[]{AUTOLABEL ?}
+\end{figure}
+
+>>>env<tab>
+you will need to type a kind of environment
+
+```
+and so on.You just need to type 'C-c ?' to see all the shortkey bindings. 
 
 ## Python Virtual Environments: A Primer
 
-### Using VIrtual Environments 
+### Using Virtual Environments 
 
 Start by making a new directory to work with:
 
