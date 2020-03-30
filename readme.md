@@ -8,7 +8,32 @@ Use emacs to wirte **latex**, **markdown**, **python**, **org**, and **git**.
 
 I make a summary about what I've learned about emacs up to 2020.3.30.And I push the configuration file to github `init.el`
 ![image](https://github.com/leishaohu/coldwinter/blob/master/pic/pic1.png)
-I don't know how to insert a picture in markdown and i'm trying it.
+
+**Recommand some packages**
+
+| package             | function                                                                      |
+|---------------------|-------------------------------------------------------------------------------|
+| company             | automatically complete your syntax                                            |
+| hungry delete       | press (del)key once can delete all the blank                                  |
+| smartparens         | match your parenthesis                                                        |
+| swiper              | search word/file quickly                                                      |
+| which key           | help you remember shortkey                                                    |
+| window numbering    | number your window and help you switch                                        |
+| magit               | you can use git quickly in emacs                                              |
+| zenburn-theme       | the most popular theme now                                                    |
+| evil                | edit like vim in emacs                                                        |
+| evil-leader         | increase the shortkey with a prefix                                           |
+| evil-surround       | change parenthesis or something arround like that quickly                     |
+| evil-nerd-commenter | comment or uncomment quickly                                                  |
+| evil-escape         | change from any mode to normal mode quickly                                   |
+| auctex              | write latex in emacs                                                          |
+| cdlatex             | very useful with so many shortkeys and help increase your proficiency greatly |
+| elpy                | python package                                                                |
+| flycheck            | help you to check and correct  your code                                      |
+| py-autopep8         | format your python codes                                                      |
+
+
+
 
 ## Python Virtual Environments: A Primer
 
