@@ -9,7 +9,7 @@ Use emacs to wirte **latex**, **markdown**, **python**, **org**, and **git**.
 I make a summary about what I've learned about emacs up to 2020.3.30.And I push the configuration file to github `init.el`
 ![image](https://github.com/leishaohu/coldwinter/blob/master/pic/pic1.png)
 
-**Recommand some packages**
+### Recommand some packages
 
 | package             | function                                                                      |
 |---------------------|-------------------------------------------------------------------------------|
@@ -32,7 +32,27 @@ I make a summary about what I've learned about emacs up to 2020.3.30.And I push 
 | flycheck            | help you to check and correct  your code                                      |
 | py-autopep8         | format your python codes                                                      |
 
+### Better Edit
 
+With the help of evil and many packages I can edit in emacs proficiently;
+
+| key           | function                                    |
+|---------------|---------------------------------------------|
+| hjkl          | left/down/up/right                          |
+| C-a;C-e       | the beginning(ending) of current part       |
+| dd            | delete the current row                      |
+| jk(quickly)   | back to normal mode                         |
+| p             | in normal mode paste                        |
+| y             | copy what you've chosen                     |
+| y,s,w+(       | add () surround a word                      |
+| c,s,+( {      | change the () surround to {}                |
+| d,s,+{        | delete the surround {}                      |
+| C+s           | search the item you want and jump there     |
+| S(uper)+1,2,3 | switch to window 1,2,3                      |
+| i,a,o,O       | insert,append,open in the next line;up line |
+
+
+## Latex in emacs
 
 
 ## Python Virtual Environments: A Primer
