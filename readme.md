@@ -71,12 +71,9 @@ First time I used latex was recommanded by my best friend of USTC. At that time 
 ``` latex
 
 >>> sn<tab> 
-
-
 \section{}
 
 >>> ss<tab>
-
 \subsection{}
 
 >>>fg<tab>
@@ -88,9 +85,17 @@ First time I used latex was recommanded by my best friend of USTC. At that time 
 >>>env<tab>
 you will need to type a kind of environment
 
+
 ```
 and so on.You just need to type 'C-c ?' to see all the shortkey bindings. 
 
+| shortkey          | function                                          |
+|-------------------|---------------------------------------------------|
+| C-c C-c           | choose which way to edit the code such as xelatex |
+| C-c C-a           | edit and show the pdf file                        |
+| cdlatex-math-list | add new shortkey for some special synbol          |
+| M-x shell         | use terminal in emacs                             |
+|                   |                                                   |
 ## Python Virtual Environments: A Primer
 
 ### Using Virtual Environments 
