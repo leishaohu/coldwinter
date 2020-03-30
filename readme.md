@@ -1,3 +1,4 @@
+[toc]
 # Cold Winter
 
 What i've done in this cold winter of 2019:
