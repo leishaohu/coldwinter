@@ -1,15 +1,14 @@
 Table of Contents
 =================
 
+   * [Table of Contents](#table-of-contents)
    * [Cold Winter](#cold-winter)
-      * [Emacs first](#emacs-first)
-         * [Recommand some packages](#recommand-some-packages)
+      * [Emacs First](#emacs-first)
+         * [Recommand Some Packages](#recommand-some-packages)
          * [Better Edit](#better-edit)
-      * [Latex in emacs](#latex-in-emacs)
+      * [Latex in Emacs](#latex-in-emacs)
       * [Python Virtual Environments: A Primer](#python-virtual-environments-a-primer)
-         * [Using VIrtual Environments](#using-virtual-environments)
-
-# Cold Winter
+         * [Using Virtual Environments](#using-virtual-environments)# Cold Winter
 
 What I've done in this cold winter of 2019:
 
@@ -95,10 +94,24 @@ and so on.You just need to type 'C-c ?' to see all the shortkey bindings.
 | C-c C-a           | edit and show the pdf file                        |
 | cdlatex-math-list | add new shortkey for some special synbol          |
 | M-x shell         | use terminal in emacs                             |
-|                   |                                                   |
-## Python Virtual Environments: A Primer
 
-### Using Virtual Environments 
+## Markdown
+
+This readme is wirtten in markdown which is a easy and useful compile language. I want to summarize the usual commands for markdown in emacs.
+
+* C-c C-s for all kinds of fonts or title hierarchy.
+* C-c C-c for preview or export for many kinds of file.
+* C-M-a move to the former title
+* C-M-e move to the next title
+
+As for pictures and url I use little and don't talk too much.
+
+## Python
+
+
+### Python Virtual Environments: A Primer
+
+#### Using Virtual Environments 
 
 Start by making a new directory to work with:
 
@@ -116,3 +129,17 @@ Create a new virtual environment inside the directory:
 	$python3 -m venv env 
 	
 In the above example, this command creates a directory called env, which contains a directory structure similar to this:
+
+## Git
+
+Using the package magit, all of the commands can be complished easily and efficiently.
+
+* C-x g will execute the git status (different people have different keybindings)
+* s stage the file (like add in git)
+* c commit and choose the items you want and press c again to commit
+* add the comment you want to commit C-c C-c finish the commit
+* P to push what you've done to github
+* g refresh the magit
+* b for all branch operation
+
+![image](https://github.com/leishaohu/coldwinter/blob/master/pic/pic2.png)

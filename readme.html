@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>-</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="table-of-contents">Table of Contents</h1>
+<ul>
+<li><a href="#table-of-contents">Table of Contents</a></li>
+<li><a href="#cold-winter">Cold Winter</a>
+<ul>
+<li><a href="#emacs-first">Emacs First</a>
+<ul>
+<li><a href="#recommand-some-packages">Recommand Some Packages</a></li>
+<li><a href="#better-edit">Better Edit</a></li>
+</ul></li>
+<li><a href="#latex-in-emacs">Latex in Emacs</a></li>
+<li><a href="#python-virtual-environments-a-primer">Python Virtual Environments: A Primer</a>
+<ul>
+<li><a href="#using-virtual-environments">Using Virtual Environments</a># Cold Winter</li>
+</ul></li>
+</ul></li>
+</ul>
+<p>What I’ve done in this cold winter of 2019:</p>
+<p>Use emacs to wirte <strong>latex</strong>, <strong>markdown</strong>, <strong>python</strong>, <strong>org</strong>, and <strong>git</strong>.</p>
+<h2 id="emacs-first">Emacs First</h2>
+<p>I make a summary about what I’ve learned about emacs up to 2020.3.30.And I push the configuration file to github <code>init.el</code> <img src="https://github.com/leishaohu/coldwinter/blob/master/pic/pic1.png" alt="image" /></p>
+<h3 id="recommand-some-packages">Recommand Some Packages</h3>
+<table>
+<colgroup>
+<col style="width: 21%" />
+<col style="width: 79%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>package</th>
+<th>function</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>company</td>
+<td>automatically complete your syntax</td>
+</tr>
+<tr class="even">
+<td>hungry delete</td>
+<td>press (del)key once can delete all the blank</td>
+</tr>
+<tr class="odd">
+<td>smartparens</td>
+<td>match your parenthesis</td>
+</tr>
+<tr class="even">
+<td>swiper</td>
+<td>search word/file quickly</td>
+</tr>
+<tr class="odd">
+<td>which key</td>
+<td>help you remember shortkey</td>
+</tr>
+<tr class="even">
+<td>window numbering</td>
+<td>number your window and help you switch</td>
+</tr>
+<tr class="odd">
+<td>magit</td>
+<td>you can use git quickly in emacs</td>
+</tr>
+<tr class="even">
+<td>zenburn-theme</td>
+<td>the most popular theme now</td>
+</tr>
+<tr class="odd">
+<td>evil</td>
+<td>edit like vim in emacs</td>
+</tr>
+<tr class="even">
+<td>evil-leader</td>
+<td>increase the shortkey with a prefix</td>
+</tr>
+<tr class="odd">
+<td>evil-surround</td>
+<td>change parenthesis or something arround like that quickly</td>
+</tr>
+<tr class="even">
+<td>evil-nerd-commenter</td>
+<td>comment or uncomment quickly</td>
+</tr>
+<tr class="odd">
+<td>evil-escape</td>
+<td>change from any mode to normal mode quickly</td>
+</tr>
+<tr class="even">
+<td>auctex</td>
+<td>write latex in emacs</td>
+</tr>
+<tr class="odd">
+<td>cdlatex</td>
+<td>very useful with so many shortkeys and help increase your proficiency greatly</td>
+</tr>
+<tr class="even">
+<td>elpy</td>
+<td>python package</td>
+</tr>
+<tr class="odd">
+<td>flycheck</td>
+<td>help you to check and correct your code</td>
+</tr>
+<tr class="even">
+<td>py-autopep8</td>
+<td>format your python codes</td>
+</tr>
+</tbody>
+</table>
+<h3 id="better-edit">Better Edit</h3>
+<p>With the help of evil and many packages I can edit in emacs proficiently;</p>
+<table>
+<thead>
+<tr class="header">
+<th>key</th>
+<th>function</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>hjkl</td>
+<td>left/down/up/right</td>
+</tr>
+<tr class="even">
+<td>C-a;C-e</td>
+<td>the beginning(ending) of current part</td>
+</tr>
+<tr class="odd">
+<td>dd</td>
+<td>delete the current row</td>
+</tr>
+<tr class="even">
+<td>jk(quickly)</td>
+<td>back to normal mode</td>
+</tr>
+<tr class="odd">
+<td>p</td>
+<td>in normal mode paste</td>
+</tr>
+<tr class="even">
+<td>y</td>
+<td>copy what you’ve chosen</td>
+</tr>
+<tr class="odd">
+<td>y,s,w+(</td>
+<td>add () surround a word</td>
+</tr>
+<tr class="even">
+<td>c,s,+( {</td>
+<td>change the () surround to {}</td>
+</tr>
+<tr class="odd">
+<td>d,s,+{</td>
+<td>delete the surround {}</td>
+</tr>
+<tr class="even">
+<td>C+s</td>
+<td>search the item you want and jump there</td>
+</tr>
+<tr class="odd">
+<td>S(uper)+1,2,3</td>
+<td>switch to window 1,2,3</td>
+</tr>
+<tr class="even">
+<td>i,a,o,O</td>
+<td>insert,append,open in the next line;up line</td>
+</tr>
+</tbody>
+</table>
+<h2 id="latex-in-emacs">Latex in Emacs</h2>
+<p>First time I used latex was recommanded by my best friend of USTC. At that time the VScode was the editor I used. It was good, but since I used the emacs and the package of cdlatex, my proficiency is improved greatly.You just need to type few words and type <tab>, it will complete a environment for you.And in math, type ` and there is a list of all kinds special words you need and you can even add some new keybands into it.Type ’ and there will be a list of different kinds of fonts.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode latex"><code class="sourceCode latex"><span id="cb1-1"><a href="#cb1-1"></a></span>
+<span id="cb1-2"><a href="#cb1-2"></a>&gt;&gt;&gt; sn&lt;tab&gt; </span>
+<span id="cb1-3"><a href="#cb1-3"></a><span class="kw">\section</span>{}</span>
+<span id="cb1-4"><a href="#cb1-4"></a></span>
+<span id="cb1-5"><a href="#cb1-5"></a>&gt;&gt;&gt; ss&lt;tab&gt;</span>
+<span id="cb1-6"><a href="#cb1-6"></a><span class="kw">\subsection</span>{}</span>
+<span id="cb1-7"><a href="#cb1-7"></a></span>
+<span id="cb1-8"><a href="#cb1-8"></a>&gt;&gt;&gt;fg&lt;tab&gt;</span>
+<span id="cb1-9"><a href="#cb1-9"></a><span class="kw">\begin</span>{<span class="ex">figure</span>}[htbp]</span>
+<span id="cb1-10"><a href="#cb1-10"></a><span class="fu">\centerline</span>{<span class="bu">\includegraphics</span>[]{}}</span>
+<span id="cb1-11"><a href="#cb1-11"></a><span class="fu">\caption</span>[]{AUTOLABEL ?}</span>
+<span id="cb1-12"><a href="#cb1-12"></a><span class="kw">\end</span>{<span class="ex">figure</span>}</span>
+<span id="cb1-13"><a href="#cb1-13"></a></span>
+<span id="cb1-14"><a href="#cb1-14"></a>&gt;&gt;&gt;env&lt;tab&gt;</span>
+<span id="cb1-15"><a href="#cb1-15"></a>you will need to type a kind of environment</span>
+<span id="cb1-16"><a href="#cb1-16"></a></span></code></pre></div>
+<p>and so on.You just need to type ‘C-c ?’ to see all the shortkey bindings.</p>
+<table>
+<thead>
+<tr class="header">
+<th>shortkey</th>
+<th>function</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>C-c C-c</td>
+<td>choose which way to edit the code such as xelatex</td>
+</tr>
+<tr class="even">
+<td>C-c C-a</td>
+<td>edit and show the pdf file</td>
+</tr>
+<tr class="odd">
+<td>cdlatex-math-list</td>
+<td>add new shortkey for some special synbol</td>
+</tr>
+<tr class="even">
+<td>M-x shell</td>
+<td>use terminal in emacs</td>
+</tr>
+</tbody>
+</table>
+<h2 id="markdown">Markdown</h2>
+<p>This readme is wirtten in markdown which is a easy and useful compile language. I want to summarize the usual commands for markdown in emacs.</p>
+<ul>
+<li>C-c C-s for all kinds of fonts or title hierarchy.</li>
+<li></li>
+</ul>
+<h2 id="python-virtual-environments-a-primer">Python Virtual Environments: A Primer</h2>
+<h3 id="using-virtual-environments">Using Virtual Environments</h3>
+<p>Start by making a new directory to work with:</p>
+<pre><code>shell
+$mkdir python-virtual-environments &amp;&amp; cd python-virtual-environments</code></pre>
+<p>Create a new virtual environment inside the directory:</p>
+<pre><code>shell
+#python 2:
+$ virtualenv env
+
+#Python 3
+$python3 -m venv env </code></pre>
+<p>In the above example, this command creates a directory called env, which contains a directory structure similar to this:</p>
+</body>
+</html>
