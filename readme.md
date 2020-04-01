@@ -1,15 +1,26 @@
 Table of Contents
 =================
 
-   * [Table of Contents](#table-of-contents)
-   * [Cold Winter](#cold-winter)
-      * [Emacs First](#emacs-first)
-         * [Recommand Some Packages](#recommand-some-packages)
-         * [Better Edit](#better-edit)
-      * [Latex in Emacs](#latex-in-emacs)
+   * [Emacs First](#emacs-first)
+      * [Recommand Some Packages](#recommand-some-packages)
+      * [Better Edit](#better-edit)
+   * [Latex in Emacs](#latex-in-emacs)
+   * [Markdown](#markdown)
+   * [Python](#python)
       * [Python Virtual Environments: A Primer](#python-virtual-environments-a-primer)
-         * [Using Virtual Environments](#using-virtual-environments)# Cold Winter
-
+         * [Using Virtual Environments](#using-virtual-environments)
+   * [Git](#git)
+   * [Org](#org)
+      * [shortkey for headings](#shortkey-for-headings)
+      * [shortkey for chart](#shortkey-for-chart)
+         * [subtitle](#subtitle)
+            * [subsubtitle](#subsubtitle)
+      * [Agenda and TODOlist](#agenda-and-todolist)
+      * [Hyperlinks](#hyperlinks)
+      * [Try Agenda](#try-agenda)
+      * [Transfer to Other formats](#transfer-to-other-formats)
+		 
+		 
 What I've done in this cold winter of 2019:
 
 Use emacs to wirte **latex**, **markdown**, **python**, **org**, and **git**.
@@ -143,3 +154,107 @@ Using the package magit, all of the commands can be complished easily and effici
 * b for all branch operation
 
 ![image](https://github.com/leishaohu/coldwinter/blob/master/pic/pic2.png)
+
+## Org ##
+
+Org is just like markdown but better than markdown I think:
+
+### shortkey for headings
+
+-   C-c C-j jump to the title you want
+-   S-TAB unfold all title (S- is the shift key)
+-   M-left/right increase/decrease the title grade
+-   M-S-left/rigt increase/decrease the title and all subtitles grade
+
+
+<a id="orgc02ab1c"></a>
+
+### shortkey for chart
+
+C-c | create a chart quickly
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">hh</th>
+<th scope="col" class="org-left">hh</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="org-left">hh</td>
+<td class="org-left">hh</td>
+</tr>
+</tbody>
+</table>
+
+Text text text!
+
+
+<a id="org92b5922"></a>
+
+#### subtitle
+
+
+<a id="orga578db1"></a>
+
+##### subsubtitle
+
+
+<a id="org3f04e3c"></a>
+
+### Agenda and TODOlist
+
+
+<a id="org8614fb4"></a>
+
+### Hyperlinks
+
+[baidu](http:www.baidu.com)
+[wechat4.md](wechat4.md)
+
+-   C-c C-l insert links
+-   C-c C-o open links
+
+very useful!
+
+    s    #+begin_src ... #+end_src 
+    e    #+begin_example ... #+end_example  : 单行的例子以冒号开头
+    q    #+begin_quote ... #+end_quote      通常用于引用，与默认格式相比左右都会留出缩进
+    v    #+begin_verse ... #+end_verse      默认内容不换行，需要留出空行才能换行
+    c    #+begin_center ... #+end_center 
+    l    #+begin_latex ... #+end_latex 
+    L    #+latex: 
+    h    #+begin_html ... #+end_html 
+    H    #+html: 
+    a    #+begin_ascii ... #+end_ascii 
+    A    #+ascii: 
+    i    #+index: line 
+    I    #+include: line
+    write <s TAB you get the first one
+
+> I just want try
+
+
+<a id="orgf0eb956"></a>
+
+### Try Agenda
+
+-   C-c C-t change to todo
+-   C-c a for agenda
+
+
+<a id="org1d08674"></a>
+
+### Transfer to Other formats
+
+C-c C-e transfer
+
