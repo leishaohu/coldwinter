@@ -34,7 +34,8 @@
 		magit 
 		exec-path-from-shell
 		;; --- Themes ---
-        	zenburn-theme
+        	;;zenburn-theme
+		spacemacs-theme
 		;; monokai-theme
 		;;solarized-themek
 		) "Default packages")
@@ -132,7 +133,8 @@
 ;; init-better-defaults;;;;;;;;
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
-(load-theme 'zenburn t)
+;;(load-theme 'zenburn t)
+'(custom-enabled-theme (quote (spacemacs-theme-dark)))
 
 (setq-default cursor-type 'bar)
 (setq inhibit-splash-screen 1)
