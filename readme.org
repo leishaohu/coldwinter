@@ -4,7 +4,7 @@ Use emacs to wirte *latex*, *markdown*, *python*, *org*, and *git*.
 
 * Emacs First
 I make a summary about what I've learned about emacs up to 2020.3.30.And I push the configuration file to github `init.el`
-![image](https://github.com/leishaohu/coldwinter/blob/master/pic/pic1.png)
+[[ https://github.com/leishaohu/coldwinter/blob/master/pic/pic1.png ]]
 
 
 ** Recommand Some Packages
@@ -143,10 +143,9 @@ Using the package magit, all of the commands can be complished easily and effici
 - P to push what you've done to github
 - g refresh the magit
 - b for all branch operation
+[[ https://github.com/leishaohu/coldwinter/blob/master/pic/pic2.png ]]
 
-![image](https://github.com/leishaohu/coldwinter/blob/master/pic/pic2.png)
-
-* Org * 
+* Org  
 
 Org is just like markdown but better than markdown I think:
 
