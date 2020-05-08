@@ -51,23 +51,6 @@ I make a summary about what I've learned about emacs up to 2020.3.30.And I push 
 | auctex              | write latex in emacs                                                          |
 | cdlatex             | very useful with so many shortkeys and help increase your proficiency greatly |
 | elpy                | python package                                                                |
-| flycheck            | help you to check and correct  your code                                      |
-| py-autopep8         | format your python codes                                                      |
-
-### Better Edit
-
-With the help of evil and many packages I can edit in emacs proficiently;
-
-| key           | function                                    |
-|---------------|---------------------------------------------|
-| hjkl          | left/down/up/right                          |
-| C-a;C-e       | the beginning(ending) of current part       |
-| dd            | delete the current row                      |
-| jk(quickly)   | back to normal mode                         |
-| p             | in normal mode paste                        |
-| y             | copy what you've chosen                     |
-| y,s,w+(       | add () surround a word                      |
-| c,s,+( {      | change the () surround to {}                |
 | d,s,+{        | delete the surround {}                      |
 | C+s           | search the item you want and jump there     |
 | S(uper)+1,2,3 | switch to window 1,2,3                      |
