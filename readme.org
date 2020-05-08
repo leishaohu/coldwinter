@@ -4,8 +4,7 @@ Use emacs to wirte *latex*, *markdown*, *python*, *org*, and *git*.
 
 * Emacs First
 I make a summary about what I've learned about emacs up to 2020.3.30.And I push the configuration file to github `init.el`
-[[ https://github.com/leishaohu/coldwinter/blob/master/pic/pic1.png ]]
-
+[[file:pic/pic1.png][a picture]]
 
 ** Recommand Some Packages
 
