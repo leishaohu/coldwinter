@@ -40,7 +40,8 @@ Use emacs to wirte **latex**, **markdown**, **python**, **org**, and **git**.
 # Emacs First<a id="sec-1" name="sec-1"></a>
 
 I make a summary about what I've learned about emacs up to 2020.3.30.And I push the configuration file to github \`init.el\`
-[a picture](pic/pic1.png)
+![image](https://github.com/leishaohu/coldwinter/blob/master/pic/pic1.png)
+
 
 ## Recommand Some Packages<a id="sec-1-1" name="sec-1-1"></a>
 
@@ -368,6 +369,8 @@ Using the package magit, all of the commands can be complished easily and effici
 -   P to push what you've done to github
 -   g refresh the magit
 -   b for all branch operation
+
+![image](https://github.com/leishaohu/coldwinter/blob/master/pic/pic2.png)
 
 # Org<a id="sec-6" name="sec-6"></a>
 
