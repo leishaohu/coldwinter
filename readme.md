@@ -425,5 +425,18 @@ very useful!
 C-c C-e transfer
 
 # Dired mode
-|keybindings|function|
-		
+
+keybindings|function
+--|--
+C-x d|for dired mode
+n,p,^|next,previous,upper content
+g|refresh the content
+d|mark as delete
+u|unmark
++|creat a son content
+D|delete 
+R|rename
+O|change owner
+T|change time
+G|change group
+	
