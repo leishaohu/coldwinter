@@ -424,7 +424,7 @@ very useful!
 
 C-c C-e transfer
 
-# Dired mode
+# Dired mode<a id="sec-10" name="sec-10"></a>
 
 keybindings|function
 --|--
