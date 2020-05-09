@@ -29,6 +29,7 @@
 <li><a href="#sec-7">7. Hyperlinks</a></li>
 <li><a href="#sec-8">8. Try Agenda</a></li>
 <li><a href="#sec-9">9. Transfer to Other formats</a></li>
+<li><a href="#sec-10">10. Dired mode</a></li>
 </ul>
 </div>
 </div>
@@ -422,3 +423,7 @@ very useful!
 # Transfer to Other formats<a id="sec-9" name="sec-9"></a>
 
 C-c C-e transfer
+
+# Dired mode
+|keybindings|function|
+		
