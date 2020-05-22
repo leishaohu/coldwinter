@@ -326,6 +326,13 @@ and so on.You just need to type 'C-c ?' to see all the shortkey bindings.
 </tbody>
 </table>
 
+keybands|function
+--|--
+C-c *|choose the section
+C-c .|choose the environment
+C-c C-r|compile current region
+C-c ;|comment or uncomment
+
 # Markdown<a id="sec-3" name="sec-3"></a>
 
 This readme is wirtten in markdown which is a easy and useful compile language. I want to summarize the usual commands for markdown in emacs.
