@@ -119,6 +119,7 @@ As for pictures and url I use little and don't talk too much.
 
 ## Python
 
+* C-c C-c to execute the program.
 
 ### Python Virtual Environments: A Primer
 
@@ -211,7 +212,7 @@ Text text text!
 
 <a id="org3f04e3c"></a>
 
-### Agenda and TODOlist
+### Agenda and TODO List
 
 
 <a id="org8614fb4"></a>
