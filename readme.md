@@ -354,7 +354,7 @@ As for pictures and url I use little and don't talk too much.
 Start by making a new directory to work with:
 
     shell
-    $mkdir python-virtual-environments && cd python-virtual-environments
+    $mkdir python-virtual-environments && cd python-virtual-environments
 
 Create a new virtual environment inside the directory:
 
